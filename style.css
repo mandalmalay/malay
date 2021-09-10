@@ -1,0 +1,590 @@
+/* Header css start */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    
+}
+.navbar-sticky-top{
+    position: fixed !important;
+    top: 0px;
+    z-index: 4;
+    width: 100%;
+}
+
+.headd{
+    padding: 0 !important;
+   
+}
+.logo img{
+    width: 40px;
+}
+.logo{
+    margin-top: 16px;
+}
+.headd h4{
+    font-weight: 600;
+    margin-right: 120px;
+    transition: .2s;
+}
+.headd h4:hover{
+    color: gray;
+    cursor: pointer;
+}
+.but {
+	font-weight: 700;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 4px 32px;
+	border: 2px solid #6278df;
+	border-radius: 6px;
+	color: #6278df;
+}
+.but:hover{
+    background-color: #6278df;
+    color: white;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.7);
+}
+
+
+
+
+/* Header css end */
+/* Banner css start */
+.banner{
+    background: url(./mbr-10.jpg) no-repeat center;
+    position: relative;
+    z-index: 1;
+    padding: 160px 0;
+    margin-top: 80px;
+}
+.banner::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.butt{
+    width: 75%;
+    height: 60px;
+    background-color: #5ba533;
+    border: none;
+    font-weight: 600;
+    transition: .4s;
+}
+.butt:hover{
+    background-color: white;
+    color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+.for {
+	height: 60px;
+	outline: none;
+	border: none;
+	width: 93%;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.for:focus{
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+.form-div{
+    width: 800px;
+    margin: auto;
+}
+.banner-caption h4 {
+	font-weight: 300;
+	font-size: 31px;
+	position: relative;
+	top: -79px;
+    margin-bottom: 35px;
+}
+.banner-caption h1 {
+	font-weight: 600;
+	font-size: 52px;
+	position: relative;
+	top: -61px;
+}
+
+/* Banner css end */
+/* number counter css start */
+
+.number-counter h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+/* number counter css end */
+.lead{
+    font-weight: 400;
+    font-size: 21px;
+}
+.about{
+    background-color: #f7f9ff;
+}
+.about h1{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+/* Learn about css start */
+.learn-about h1{
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-size: 45px;
+    font-weight: 400;
+}
+.learn-about p{
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 70px;
+}
+.one{
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.2);
+
+}
+.left-image{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+
+}
+.left-image img {
+	height: 100%;
+	width: auto;
+	max-width: inherit;
+	position: relative;
+	left: -107px;
+}
+.image-2{
+    margin-left: 70px;
+}
+.image-3{
+    margin-left: 107px;
+}
+.image-4{
+    margin-left: 6px;
+}
+.image-5{
+    margin-left: 69px;
+}
+.image-6{
+    margin-left: 5px;
+}
+.right-text{
+    width: 60%;
+    padding: 30px;
+}
+.right-text h4{ 
+    /* padding-top: 30px; */
+    /* padding-bottom: 10px; */
+    font-size: 22px;
+    margin-top: 86px;
+}
+.right-text p{
+    font-weight: 300;
+    font-size: 16.5px;
+
+}
+
+
+
+/* Learn about css end */
+/* application css stard */
+.application h1{
+    padding-top: 110px;
+    padding-bottom: 50px;
+
+}
+.pic{
+    position: relative;
+}
+.pic::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #6279dfa4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.pic:hover.pic::after{
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+}
+/* application css end */
+
+/* pricing-table css start */
+
+.pricing-table{
+    background-color: #f7f9ff;
+    padding-bottom: 60px;
+}
+.ppp {
+	font-weight: 300;
+	font-size: 27px;
+    padding-bottom: 50px;
+}
+.hhh {
+	font-size: 59px;
+	font-weight: 400;
+	padding-top: 71px;
+	padding-bottom: 30px;
+}
+.table-item {
+	background-color: #ffffff;
+	padding: 40px;
+    border-radius: 6px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.2);
+}
+.table-item h2 {
+	font-size: 47px;
+	padding-bottom: 23px;
+}
+.table-item h4 {
+	color: #534f4f;
+	font-size: 25px;
+	font-weight: 200;
+	padding-bottom: 34px;
+}
+.table-item ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.table-item ul li {
+	color: #8f8a8a;
+	font-weight: 300;
+	font-size: 22px;
+	padding-bottom: 28px;
+}
+.table-item span {
+	color: #6278df;
+	font-weight: bold;
+	font-size: 33px;
+	padding-right: 19px;
+}
+.boot {
+	text-align: center;
+	padding: 47px;
+}
+.bot {
+	text-decoration: none;
+	padding: 20px 46px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.2);
+	border-radius: 5px;
+	font-size: 23px;
+	font-weight: 600;
+}
+.btt{
+    padding-bottom: 76px !important;
+}
+.table-item:hover .bot{
+    background-color: #6278df;
+    color: white;
+    transition: .4s;
+}
+.bot:hover{
+    background-color: black !important;
+    transition: .4s;
+}
+/* pricing-table css end */
+
+/* ?feedback section start */
+.feedback{
+    padding-bottom: 50px;
+}
+.feedback h1 {
+	font-weight: 400;
+	font-size: 45px;
+}
+.feedback h2 {
+	color: #7676761c;
+	font-size: 101px;
+	padding: 0;
+	margin-top: -15px;
+}
+.feedback h5 {
+	color: #767676;
+	font-weight: 300;
+	font-size: 28px;
+	padding-top: 78px;
+	padding-bottom: 38px;
+}
+.feedback p {
+	width: 727px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #767676;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.jeson-pic{
+    width: 250px;
+    margin: auto;
+}
+.jeson-pic img{
+    width: 75px;
+}
+.user-info {
+	text-align: left;
+	margin-right: -9px;
+	display: inline-block;
+	margin-top: 7px;
+}
+.user-info h4{
+    font-style: 25px;
+}
+.user-info h6{
+    color: #767676;
+}
+.mmm{
+    padding-bottom: 130px;
+}
+
+
+/* ?feedback section end */
+
+
+/* team css start */
+.team{
+    background-color: #f7f9ff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.lead{
+    font-size: 20px;
+    font-weight: 300;
+}
+.team h1 {
+	padding-bottom: 55px;
+	font-weight: 400;
+	font-size: 44px;
+}
+.team .itemm {
+	background: #ffffff;
+	padding: 28px;
+    padding-bottom: 40px;
+}
+.team .imm{}
+.team .imm img {
+	border-radius: 50%;
+	width: 136px;
+	margin-top: -93px;
+	margin-left: -6px;
+	margin-bottom: 32px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.5);
+}
+.itemm h4 {
+	font-size: 22px;
+}
+.itemm h3 {
+	font-size: 22px;
+	font-weight: 400;
+}
+.itemm p {
+	font-size: 15px;
+	padding-top: 11px;
+	color: #433f3f;
+	font-weight: 300;
+    padding-bottom: 20px;
+}
+.itemm .bbb {
+	text-decoration: none;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.3);
+	padding: 10px 10px;
+	border-radius: 6px;
+	color: #465052;
+	font-weight: 600;
+    transition: .4s;
+}
+
+.itemm .bbb:hover{
+    background-color: #465052;
+    color: white;
+}
+/* team css end */
+/* contact css start */
+.contact{
+    padding-bottom: 50px;
+}
+.contact h1 {
+	text-align: center;
+	font-size: 45px;
+	font-weight: 400;
+	padding-top: 14px;
+	padding-bottom: 72px;
+}
+.contact p {
+	color: #726e6e;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 200;
+	padding-top: 100px;
+}
+
+.form-1{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.2);
+}
+.form-1 h4 {
+	padding-top: 62px;
+	font-size: 26px;
+	padding-bottom: 26px;
+}
+.eeee {
+	height: 79px;
+	padding: 20px;
+	width: 529px;
+	border-radius: 5px;
+	border: none;
+	border: 1px solid #e0dada;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.1);
+	font-size: 20px;
+	font-weight: 300;
+	color: #5b5858;
+    outline: none;
+}
+.ttt{
+    width: 525px;
+    border: 1px solid #e0dada;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+	font-weight: 300;
+	color: #5b5858;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.1);
+    outline: none;
+}
+.nnn {
+	height: 79px;
+	width: 256px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #e0dada;
+    margin-right: 5px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(115, 135, 223, 0.1);
+    font-size: 20px;
+	font-weight: 300;
+	color: #5b5858;
+    outline: none;
+}
+.numm{
+    height: 79px;
+	width: 256px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid #e0dada;
+    margin-left: 5px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 109, 161, 0.1);
+    font-size: 20px;
+	font-weight: 300;
+	color: #5b5858;
+    outline: none;
+}
+.bt {
+	border: none;
+	outline: none;
+	color: white;
+	background: #6278df;
+	font-size: 20px;
+	font-weight: 600;
+	height: 66px;
+	width: 178px;
+	border-radius: 5px;
+    transition: .4s;
+    border: 2px solid #6278df;
+}
+.ttt:focus,.numm:focus,.nnn:focus,.eeee:focus{
+    border: 1px solid blue !important;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 109, 161, 0.7);
+}
+.bt:hover{
+    background-color: white;
+    color: #6278df;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(98, 109, 161, 0.7);
+}
+/* contact css end */
+
+/* foot-up css start */
+.foot-up{
+
+}
+.foot-cap{}
+.foot-cap p {
+	padding-top: 83px;
+	font-size: 25px;
+	color: #686565;
+	font-weight: 300;
+}
+.foot-cap h1 {
+	font-weight: 400;
+	font-size: 45px;
+	padding-top: 20px;
+    line-height: 70px;
+}
+.boo{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.boo .buut-1 {
+	text-decoration: none;
+	padding: 17px 31px;
+	border: 2px solid #5ba533;
+	color: #5ba533;
+	font-size: 21px;
+	font-weight: 700;
+	border-radius: 5px;
+    margin-right: 10px;
+    transition: .4s;
+}
+.boo .buut-2{
+    text-decoration: none;
+    background-color: #5ba533;
+	padding: 19px 31px;
+	color: white;
+	font-size: 21px;
+	font-weight: 700;
+	border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(87, 163, 84, 0.7);
+    transition: .4s;
+}
+.buut-1:hover{
+    background-color: #5ba533;
+    color: white;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(87, 163, 84, 0.7);
+}
+.buut-2:hover{
+    background-color: black;
+    box-shadow: none;
+}
+
+/* foot-up css end */
+
+/* footer css stsrt */
+
+.footer{
+    background-color: #edf0fb;
+    padding: 30px 0;
+}
+.footer span{
+    color: gray;
+}
+.footer p{
+    margin: 0 !important;
+    font-size: 21px;
+}
+/* footer css end */
